@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Analytics from "./components/Analytics";
 import Newsletter from "./Newsletter";
+import Cart from "./components/Cart";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <Analytics />
       <Newsletter />
+      <Cart />
     </div>
   );
 }
