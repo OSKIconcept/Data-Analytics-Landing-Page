@@ -4,7 +4,7 @@ export default function Newsletter() {
   return (
     <div className="text-white w-full py-16 px-4">
       <div className="max-w-[1240px] mx-auto md:flex justify-center items-center">
-        <div className="lg:flex-grow-1">
+        <div className="lg:flex-grow-1 text-center md:text-left">
           <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">
             Want tips & tricks to optimize your flow?
           </h1>
@@ -21,7 +21,7 @@ export default function Newsletter() {
               Notify Me
             </button>
           </div>
-          <p>
+          <p className="text-center md:text-left ">
             We care about the production of your data.
             <span className="text-[#00df9a]"> Read our privacy policy</span>
           </p>
